@@ -1,6 +1,6 @@
 #include "Matrix.h"
 
-Matrix::Matrix(std::vector<std::vector<int>> temp, int size, bool directed) : tab(nullptr), matrix_size(size){
+Matrix::Matrix(std::vector<std::vector<int>> temp, int size, bool directed) : matrix_size(size){
 
     tab = new int * [matrix_size]; // utworzenie macierzy
 
@@ -25,6 +25,7 @@ Matrix::~Matrix() {
 
     for(int i = 0; i < matrix_size; i++)
         delete [] tab[i];
+    delete[] tab;
 
 }
 

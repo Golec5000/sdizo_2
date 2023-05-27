@@ -9,10 +9,11 @@ Que::~Que() {
         delete head;
         head = p;
     }
+    delete tail;
 
 }
 
-void Que::push(long long prio, int key) {
+void Que::push(int prio, int key) {
     auto * new_node = new QueNode(prio,key);
 
     if(head == nullptr) head = tail = new_node;
@@ -63,4 +64,15 @@ bool Que::contains(int key) {
     }
 
     return false;
+}
+
+void Que::display() {
+
+    auto p = head;
+
+    while (p != nullptr) {
+        std::cout << p->key<<" ";
+        p = p->next;
+    }
+    std::cout<<std::endl;
 }

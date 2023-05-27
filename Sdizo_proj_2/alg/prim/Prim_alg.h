@@ -3,15 +3,27 @@
 
 #include "../../graf/Graf.h"
 #include "../../struct_help/que_prio/Que.h"
-#include <limits>
+
+#include <climits>
 
 class Prim_alg {
 public:
-    Prim_alg();
+
+    Prim_alg(int number_of_v);
     ~Prim_alg();
+
     void solution(Graf * g);
+    void display_solution(Graf * g);
+
 private:
+
     Que * que;
+
+    int * k;
+    int * p;
+
+    bool * zwr;
+
 };
 
 
