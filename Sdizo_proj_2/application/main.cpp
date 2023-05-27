@@ -10,11 +10,11 @@
 int main() {
 
     std::string path = "..//data//";
-    std::string file_name = "test2.txt";
+    std::string file_name = "test3.txt";
 
     FileReader fileReader;
 
-     auto * g = new Graf(fileReader.readNumbers(path+file_name), true);
+     auto * g = new Graf(fileReader.readNumbers(path+file_name), false);
      g->display();
 
      auto prim = new Prim_alg(g->get_number_v());
@@ -23,14 +23,14 @@ int main() {
 
      auto kruskal = new Kruskal_alg(g,fileReader.readNumbers(path + file_name));
 
-     //kruskal->solution();
-     //kruskal->display_solution();
+     kruskal->solution();
+     kruskal->display_solution();
 
 
      auto dijkstra = new Dijkstra_alg(g);
 
-     dijkstra->solution(g);
-     dijkstra->display_solution();
+     //dijkstra->solution(g);
+     //dijkstra->display_solution();
 
      delete g;
 

@@ -21,8 +21,6 @@ Kruskal_alg::~Kruskal_alg() {
         delete edges[i];
     delete [] edges;
 
-    for(int i = 0; i < ans_size; i++)
-        delete ans[i];
     delete [] ans;
 }
 
@@ -127,9 +125,15 @@ void Kruskal_alg::display_solution() {
 
     std::cout<<std::endl;
 
-    for(int i = 0; i < ans_size; i++){
-        ans[i]->display();
-        std::cout<<std::endl;
+    int mst = 0;
+
+    std::cout<<"Prim alg"<<std::endl;
+    std::cout<<"Edge          "<< "Weight"<<std::endl;
+
+    for(int i = 0; i < ans_size; i++) {
+        std::cout << "(" << ans[i]->get_u() << "," << ans[i]->get_v() << ")     ->     " << ans[i]->get_w() << std::endl;
+        mst += ans[i]->get_w();
     }
+    std::cout<<"MST: " << mst << std::endl;
 
 }
