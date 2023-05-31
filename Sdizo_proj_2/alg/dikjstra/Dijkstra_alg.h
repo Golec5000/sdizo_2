@@ -16,6 +16,7 @@ public:
 
     void solution(Graf * g);
     void display_solution();
+
 private:
 
     int * prev;
@@ -24,8 +25,11 @@ private:
     bool * visited;
 
     int num_v;
+    int start_v;
 
     Que * que;
+
+    void path_of_v(int v);
 
 };
 

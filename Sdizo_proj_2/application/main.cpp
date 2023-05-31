@@ -12,31 +12,38 @@ int main() {
     std::string path = "..//data//";
     std::string file_name = "test3.txt";
 
-    FileReader fileReader;
+    auto *  fileReader = new FileReader();
 
-     auto * g = new Graf(fileReader.readNumbers(path+file_name), false);
+     auto * g = new Graf(fileReader -> readNumbers(path+file_name), false);
      g->display();
 
-     auto prim = new Prim_alg(g->get_number_v());
-     //prim->solution(g);
-     //prim->display_solution(g);
-
-     auto kruskal = new Kruskal_alg(g,fileReader.readNumbers(path + file_name));
-
-     kruskal->solution();
-     kruskal->display_solution();
+//     auto prim = new Prim_alg(g->get_number_v());
+//
+//     prim->solution(g);
+//     prim->display_solution(g);
+//
+//     delete prim;
 
 
-     auto dijkstra = new Dijkstra_alg(g);
+//     auto kruskal = new Kruskal_alg(g,fileReader -> readNumbers(path+file_name));
 
-     //dijkstra->solution(g);
-     //dijkstra->display_solution();
+//     kruskal->solution();
+//     kruskal->display_solution();
 
-     delete g;
+//     delete kruskal;
 
-     delete prim;
-     delete kruskal;
-     delete dijkstra;
+//     auto dijkstra = new Dijkstra_alg(g);
+//
+//     dijkstra->solution(g);
+//     dijkstra->display_solution();
+//
+//    delete dijkstra;
 
+
+
+
+
+    delete g;
+    delete fileReader;
 
 }
