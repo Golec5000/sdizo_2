@@ -398,7 +398,7 @@ void bell_ford_menu(){
 
 void tests(){
 
-//    prim_tests();
+    prim_tests();
     kruskal_tests();
     dijkstra_tests();
     bell_ford_tests();
@@ -475,7 +475,7 @@ void kruskal_tests(){
     //                                 wersja na macierzy
     std::cout << "Kruskal macierz"<< std::endl;
     writer->save("Kruskal macierz");
-    for(int i = 500; i <= 700; i+= 100) {
+    for(int i = 200; i <= 700; i+= 100) {
         std::cout << "Testy dla "<< i <<"wierzcholkow"<< std::endl;
         writer->save("Testy dla "+ std::to_string(i) +" wierzcholkow");
 
