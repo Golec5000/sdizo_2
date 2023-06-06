@@ -1,4 +1,5 @@
 #include "Edge.h"
+Edge::Edge() {}
 
 Edge::Edge(int u, int v, int w) {
 
@@ -23,3 +24,5 @@ int Edge::get_w() const{
 void Edge::display() const {
     std::cout << u << " " << v << " " << w;
 }
+
+

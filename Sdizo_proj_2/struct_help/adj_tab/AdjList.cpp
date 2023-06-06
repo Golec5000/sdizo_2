@@ -20,47 +20,34 @@ void AdjList::display() {
     std::cout << "[";
     while (p != nullptr){
 
-        std::cout << std::setw(3) << p -> key << std::setw(3);
+        std::cout << std::setw(3) <<p->neighbor  <<" : " <<p -> path<< std::setw(3);
         p = p -> next;
 
     }
     std::cout << "]" << std::endl;
 }
 
-void AdjList::add(int num) {
-    auto * new_node = new AdjNode(num);
+void AdjList::add(int path, int neighbor) {
+    auto * new_node = new AdjNode(path,neighbor);
     new_node->next = head;
     head = new_node;
     size++;
-}
-
-bool AdjList::find_key(int num) {
-    auto * p = head;
-
-    while (p != nullptr && p->key != num){
-
-        if(p->key == num) return true;
-        p = p->next;
-
-    }
-
-    return false;
 }
 
 int AdjList::get_size() {
     return size;
 }
 
-int *AdjList::get_list() {
+AdjNode *AdjList::get_list() {
 
     if(size > 0) {
         int i = 0;
         auto * p = head;
-        int *temp = new int[size];
+        auto *temp = new AdjNode[size];
 
         while (p != nullptr) {
 
-            temp[i] = p->key;
+            temp[i] = *p;
             p = p->next;
             i++;
 

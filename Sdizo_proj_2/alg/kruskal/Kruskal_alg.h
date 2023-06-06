@@ -3,32 +3,33 @@
 
 #include "../../struct_help/edge/Edge.h"
 #include "../../graf/Graf.h"
-#include <vector>
+#include "../../struct_help/dym_arr/Dym_arr.h"
+#include "../../struct_help/set_krus/Dataset.h"
 
 class Kruskal_alg {
 public:
 
-    Kruskal_alg(Graf * g, std::vector<std::vector<int>> tmp);
+    Kruskal_alg(Graf * g);
     ~Kruskal_alg();
 
-    void solution();
+    void solution_matrix();
+    void solution_list();
     void display_solution();
 
 private:
 
     void make_set();
     int find_set(int v);
-    void union_set(int u, int v);
-    void quick_sort(int left, int right);
-    void add_edge_to_ans(Edge * edge);
+    void union_set(Edge e);
 
-    Edge ** edges;
-    Edge ** ans;
+    Dym_arr <Edge> * edges;
+    Dym_arr <Edge> * mst;
 
-    int num_of_edges;
+    Dataset * dataset;
+
+    Graf * g;
+
     int num_of_v;
-    int * group;
-    int ans_size;
 
 };
 

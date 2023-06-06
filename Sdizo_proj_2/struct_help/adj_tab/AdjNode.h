@@ -4,9 +4,15 @@
 
 class AdjNode {
 public:
-    AdjNode(int num);
-    int find_key(int num);
-    int key;
+    AdjNode(int path, int neighbor);
+    AdjNode();
+
+    int get_path() const;
+    int get_neighbor() const;
+
+    int path;
+    int neighbor;
+
     AdjNode * next;
 
 };

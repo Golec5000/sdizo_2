@@ -4,17 +4,18 @@
 #include <climits>
 #include <iostream>
 
-#include "../../struct_help/que_prio/Que.h"
 #include "../../graf/Graf.h"
+#include "../../struct_help/que_prio/Heap.h"
 
 class Dijkstra_alg {
 
 public:
 
-    Dijkstra_alg(Graf * g);
+    explicit Dijkstra_alg(Graf * g);
     ~Dijkstra_alg();
 
-    void solution(Graf * g);
+    void solution_matrix();
+    void solution_list();
     void display_solution();
 
 private:
@@ -27,7 +28,9 @@ private:
     int num_v;
     int start_v;
 
-    Que * que;
+    Heap * que;
+
+    Graf * g;
 
     void path_of_v(int v);
 

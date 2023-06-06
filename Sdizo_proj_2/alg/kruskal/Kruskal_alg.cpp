@@ -1,45 +1,88 @@
 #include "Kruskal_alg.h"
 
-Kruskal_alg::Kruskal_alg(Graf * g, std::vector<std::vector<int>> tmp) : ans_size(0), ans(nullptr) {
+Kruskal_alg::Kruskal_alg(Graf * g) : num_of_v(g->get_number_v()) {
 
-    num_of_v = g->get_number_v();
+    this->g = g;
 
-    num_of_edges = g->get_number_e();
-    edges = new Edge * [num_of_edges];
-
-    tmp.erase(tmp.begin());
-
-    for (int i = 0; i < num_of_edges; i++){
-        edges[i] = new Edge(tmp[i][0],tmp[i][1],tmp[i][2]);
-    }
+    edges = new Dym_arr<Edge>;
+    mst = new Dym_arr<Edge>;
+    dataset = new Dataset[num_of_v];
 
 }
 
 Kruskal_alg::~Kruskal_alg() {
 
-    for(int i = 0; i < num_of_edges; i++)
-        delete edges[i];
-    delete [] edges;
+    delete edges;
+    delete mst;
+    delete [] dataset;
 
-    delete [] ans;
 }
 
-void Kruskal_alg::solution() {
+void Kruskal_alg::solution_list() {
 
     make_set();
 
-    quick_sort(0, num_of_edges - 1);
+    for(int u = 0; u < num_of_v; u++){
 
-    for(int i = 0; i < num_of_edges; i++){
+        auto adj = g->get_adj(u)->get_list();
+        auto size = g->get_adj(u)->get_size();
 
-        auto edge = edges[i];
+        if(size == 0) continue;
 
-        if(find_set(edge->get_u()) != find_set(edge->get_v())){
+        for(int i = 0; i < size; i++){
 
-            add_edge_to_ans(edge);
-            union_set(edge->get_u(),edge->get_v());
+            int v = adj[i].neighbor;
+            int w = adj[i].path;
+
+            if(v >= u) edges->add_back(Edge(u,v,w));
 
         }
+
+    }
+
+    edges->quick_sort_edges(0, edges->get_size() - 1);
+
+
+    for(int i = 0; i < edges->get_size() ; i++){
+
+        auto edge = edges->get_value(i);
+
+        if(find_set(edge->get_v()) == find_set(edge->get_u())) continue;
+
+        mst->add_back(*edge);
+        union_set(*edge);
+
+    }
+
+}
+
+void Kruskal_alg::solution_matrix()  {
+
+    make_set();
+
+    for(int i = 0; i < num_of_v; i++){
+
+        for(int j = i; j < num_of_v; j++){
+
+            if(g->get_matrix(i,j) == 0) continue;
+            if(i < j) edges->add_back(Edge(i,j,g->get_matrix(i,j)));
+
+
+        }
+
+    }
+
+    edges->quick_sort_edges(0, edges->get_size() - 1);
+
+
+    for(int i = 0; i < edges->get_size() ; i++){
+
+        auto edge = edges->get_value(i);
+
+        if(find_set(edge->get_u()) == find_set(edge->get_v())) continue;
+
+        mst->add_back(*edge);
+        union_set(*edge);
 
     }
 
@@ -47,93 +90,63 @@ void Kruskal_alg::solution() {
 }
 
 void Kruskal_alg::make_set() {
-    group = new int [num_of_v];
-    for (int i = 0; i < num_of_v; i++) group[i] = i;
+
+    for(int i = 0; i < num_of_v; i++){
+        dataset[i].set_power(0);
+        dataset[i].set_root(i);
+    }
+
 }
 
 int Kruskal_alg::find_set(int v) {
-    return group[v];
-}
 
-void Kruskal_alg::union_set(int u, int v) {
+    if(dataset[v].get_root() != v) dataset[v].set_root(find_set(dataset[v].get_root()));
 
-    for(int i = 0; i < num_of_v; i++)
-        if(group[i] == group[v])
-            group[i] = group[u];
+    return dataset[v].get_root();
 
 }
 
-/*
- * funkcja pomocnicza wzięta ze strony
- * https://eduinf.waw.pl/inf/alg/003_sort/0018.php
- */
+void Kruskal_alg::union_set(Edge e) {
 
-void Kruskal_alg::quick_sort(int left, int right) {
+    int u,v;
 
-    int i,j;
+    u = find_set(e.get_u());
+    v = find_set(e.get_v());
 
-    i = (left + right) / 2;
+    if(u != v){
 
-    auto piwot = edges[i];
-    edges[i] = edges[right];
 
-    for(j = i = left; i < right; i++){
-        if(edges[i]->get_w() < piwot->get_w()) {
-            std::swap(edges[i], edges[j]);
-            j++;
-        }
-    }
+        if(dataset[u].get_power() > dataset[v].get_power()) dataset[v].set_root(u);
+        else{
 
-    edges[right] = edges[j];
-    edges[j] = piwot;
+            dataset[u].set_root(v);
 
-    if(left < j -1) quick_sort(left,j - 1);
-    if(j + 1 < right) quick_sort(j + 1, right);
-}
+            if(dataset[u].get_power() == dataset[v].get_power()){
 
-void Kruskal_alg::add_edge_to_ans(Edge *edge) {
+                dataset[v].set_power(dataset[v].get_power() + 1);
 
-    if(ans == nullptr){
-
-        ans_size ++;
-        ans = new Edge * [ans_size];
-        ans[0] = edge;
-
-    } else {
-
-        int tmp_size = ans_size + 1;
-        Edge **tmp_tab = new Edge *[tmp_size];
-
-        if (tmp_tab != nullptr) {
-
-            for(int i = 0; i < ans_size; i++){
-                tmp_tab[i] = ans[i];
             }
 
-            tmp_tab[ans_size] = edge;
-
-            delete [] ans;
-            ans = tmp_tab;
-            ans_size = tmp_size;
-
         }
+
     }
 
 }
 
 void Kruskal_alg::display_solution() {
 
-    std::cout<<std::endl;
+    mst->quick_sort_edges(0, mst->get_size() - 1);
 
-    int mst = 0;
+    int mst_sum = 0;
 
     std::cout<<"Prim alg"<<std::endl;
     std::cout<<"Edge          "<< "Weight"<<std::endl;
 
-    for(int i = 0; i < ans_size; i++) {
-        std::cout << "(" << ans[i]->get_u() << "," << ans[i]->get_v() << ")     ->     " << ans[i]->get_w() << std::endl;
-        mst += ans[i]->get_w();
+    for(int i = 0; i < mst->get_size(); i++) {
+        std::cout << "(" << mst->get_value(i)->get_u() << "," << mst->get_value(i)->get_v() << ")     ->     " << mst->get_value(i)->get_w() << std::endl;
+        mst_sum += mst->get_value(i)->get_w();
     }
-    std::cout<<"MST: " << mst << std::endl;
+
+    std::cout<<"MST: " << mst_sum << std::endl;
 
 }

@@ -91,18 +91,6 @@ build CMakeFiles/Sdizo_proj_2.dir/struct_help/adj_tab/AdjNode.cpp.obj: CXX_COMPI
   OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\adj_tab
 
-build CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/Que.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/struct_help/que_prio/Que.cpp || cmake_object_order_depends_target_Sdizo_proj_2
-  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio\Que.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
-  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio
-
-build CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/QueNode.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/struct_help/que_prio/QueNode.cpp || cmake_object_order_depends_target_Sdizo_proj_2
-  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio\QueNode.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
-  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio
-
 build CMakeFiles/Sdizo_proj_2.dir/alg/prim/Prim_alg.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/alg/prim/Prim_alg.cpp || cmake_object_order_depends_target_Sdizo_proj_2
   DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\alg\prim\Prim_alg.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
@@ -133,6 +121,48 @@ build CMakeFiles/Sdizo_proj_2.dir/struct_help/edge/Edge.cpp.obj: CXX_COMPILER__S
   OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\edge
 
+build CMakeFiles/Sdizo_proj_2.dir/struct_help/dym_arr/Dym_arr.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/struct_help/dym_arr/Dym_arr.cpp || cmake_object_order_depends_target_Sdizo_proj_2
+  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\struct_help\dym_arr\Dym_arr.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\dym_arr
+
+build CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/Heap.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/struct_help/que_prio/Heap.cpp || cmake_object_order_depends_target_Sdizo_proj_2
+  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio\Heap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio
+
+build CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/QueElement.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/struct_help/que_prio/QueElement.cpp || cmake_object_order_depends_target_Sdizo_proj_2
+  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio\QueElement.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\que_prio
+
+build CMakeFiles/Sdizo_proj_2.dir/struct_help/set_krus/Dataset.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/struct_help/set_krus/Dataset.cpp || cmake_object_order_depends_target_Sdizo_proj_2
+  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\struct_help\set_krus\Dataset.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\struct_help\set_krus
+
+build CMakeFiles/Sdizo_proj_2.dir/tester/Tester_alg.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/tester/Tester_alg.cpp || cmake_object_order_depends_target_Sdizo_proj_2
+  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\tester\Tester_alg.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\tester
+
+build CMakeFiles/Sdizo_proj_2.dir/tester/Graph_gen.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/tester/Graph_gen.cpp || cmake_object_order_depends_target_Sdizo_proj_2
+  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\tester\Graph_gen.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\tester
+
+build CMakeFiles/Sdizo_proj_2.dir/file_oi/FileWriter.cpp.obj: CXX_COMPILER__Sdizo_proj_2_Debug C$:/Users/danie/Desktop/Sdizo_proj_2/file_oi/FileWriter.cpp || cmake_object_order_depends_target_Sdizo_proj_2
+  DEP_FILE = CMakeFiles\Sdizo_proj_2.dir\file_oi\FileWriter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sdizo_proj_2.dir\file_oi
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Sdizo_proj_2
@@ -141,7 +171,7 @@ build CMakeFiles/Sdizo_proj_2.dir/struct_help/edge/Edge.cpp.obj: CXX_COMPILER__S
 #############################################
 # Link the executable Sdizo_proj_2.exe
 
-build Sdizo_proj_2.exe: CXX_EXECUTABLE_LINKER__Sdizo_proj_2_Debug CMakeFiles/Sdizo_proj_2.dir/application/main.cpp.obj CMakeFiles/Sdizo_proj_2.dir/file_oi/FileReader.cpp.obj CMakeFiles/Sdizo_proj_2.dir/time_watch/TimeWatch.cpp.obj CMakeFiles/Sdizo_proj_2.dir/graf/Graf.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/matrix/Matrix.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/adj_tab/AdjList.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/adj_tab/AdjNode.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/Que.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/QueNode.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/prim/Prim_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/kruskal/Kruskal_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/ford_bell/Ford_bell_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/dikjstra/Dijkstra_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/edge/Edge.cpp.obj
+build Sdizo_proj_2.exe: CXX_EXECUTABLE_LINKER__Sdizo_proj_2_Debug CMakeFiles/Sdizo_proj_2.dir/application/main.cpp.obj CMakeFiles/Sdizo_proj_2.dir/file_oi/FileReader.cpp.obj CMakeFiles/Sdizo_proj_2.dir/time_watch/TimeWatch.cpp.obj CMakeFiles/Sdizo_proj_2.dir/graf/Graf.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/matrix/Matrix.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/adj_tab/AdjList.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/adj_tab/AdjNode.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/prim/Prim_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/kruskal/Kruskal_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/ford_bell/Ford_bell_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/alg/dikjstra/Dijkstra_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/edge/Edge.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/dym_arr/Dym_arr.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/Heap.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/que_prio/QueElement.cpp.obj CMakeFiles/Sdizo_proj_2.dir/struct_help/set_krus/Dataset.cpp.obj CMakeFiles/Sdizo_proj_2.dir/tester/Tester_alg.cpp.obj CMakeFiles/Sdizo_proj_2.dir/tester/Graph_gen.cpp.obj CMakeFiles/Sdizo_proj_2.dir/file_oi/FileWriter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Sdizo_proj_2.dir
