@@ -5,6 +5,7 @@
 
 class Edge {
 public:
+    Edge();
     Edge(int u, int v, int w);
     int get_v() const;
     int get_u() const;

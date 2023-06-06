@@ -8,16 +8,21 @@
 
 class AdjList {
 public:
+
     AdjList();
     ~AdjList();
+
     void display();
-    void add(int num);
-    bool find_key(int num);
+    void add(int path, int neighbor);
+
     int get_size();
-    int * get_list();
+    AdjNode * get_list();
+
 private:
+
     AdjNode * head;
     int size;
+
 };
 
 

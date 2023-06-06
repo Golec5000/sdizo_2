@@ -1,12 +1,10 @@
 #ifndef DATASTRUCTURES_FILEREADER_H
 #define DATASTRUCTURES_FILEREADER_H
+
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include <sstream>
-
 #include <vector>
-#include <string>
 
 class FileReader {
 public:

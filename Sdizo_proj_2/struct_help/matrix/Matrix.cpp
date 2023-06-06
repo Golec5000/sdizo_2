@@ -24,7 +24,7 @@ Matrix::Matrix(std::vector<std::vector<int>> temp, int size, bool directed) : ma
 Matrix::~Matrix() {
 
     for(int i = 0; i < matrix_size; i++)
-        delete [] tab[i];
+        delete tab[i];
     delete[] tab;
 
 }

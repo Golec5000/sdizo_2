@@ -2,27 +2,34 @@
 #define SDIZO_PROJ_2_PRIM_ALG_H
 
 #include "../../graf/Graf.h"
-#include "../../struct_help/que_prio/Que.h"
+#include "../../struct_help/que_prio/Heap.h"
+#include "../../struct_help/edge/Edge.h"
 
 #include <climits>
 
 class Prim_alg {
 public:
 
-    Prim_alg(int number_of_v);
+    explicit Prim_alg(Graf * g);
     ~Prim_alg();
 
-    void solution(Graf * g);
-    void display_solution(Graf * g);
+    void solution_list();
+    void solution_matrix();
+    void display_solution();
 
 private:
 
-    Que * que;
+    Heap * que;
+    Dym_arr<Edge> * mst;
 
     int * k;
     int * p;
 
-    bool * zwr;
+    bool * visited;
+
+    Graf * g;
+
+    void creat_mst(Graf *g);
 
 };
 

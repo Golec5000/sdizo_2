@@ -3,9 +3,9 @@ The C compiler identification could not be found in "C:/Users/danie/Desktop/Sdiz
 The CXX compiler identification could not be found in "C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info failed to compile with the following output:
-Change Dir: C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5vh0tc
+Change Dir: C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i324zn
 
-Run Build Command(s):D:/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe cmTC_d6fd1 && [1/2] Building C object CMakeFiles/cmTC_d6fd1.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):D:/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe cmTC_32959 && [1/2] Building C object CMakeFiles/cmTC_32959.dir/CMakeCCompilerABI.c.obj
 Using built-in specs.
 COLLECT_GCC=D:\MinGW\bin\gcc.exe
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -14,8 +14,8 @@ Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/sh
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6fd1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6fd1.dir/'
- d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix d:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d6fd1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\danie\AppData\Local\Temp\ccsi7Jbe.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_32959.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_32959.dir/'
+ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix d:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_32959.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\danie\AppData\Local\Temp\ccvHf2kg.s
 GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
 
@@ -38,13 +38,13 @@ GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d8294a97f74a1349f5018ada47a85119
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6fd1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6fd1.dir/'
- d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d6fd1.dir/CMakeCCompilerABI.c.obj C:\Users\danie\AppData\Local\Temp\ccsi7Jbe.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_32959.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_32959.dir/'
+ d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_32959.dir/CMakeCCompilerABI.c.obj C:\Users\danie\AppData\Local\Temp\ccvHf2kg.s
 GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
 COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6fd1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6fd1.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_d6fd1.exe
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_32959.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_32959.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_32959.exe
 Using built-in specs.
 COLLECT_GCC=D:\MinGW\bin\gcc.exe
 COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
@@ -56,21 +56,21 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
 COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6fd1.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6fd1.'
- d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\danie\AppData\Local\Temp\ccrZehIf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6fd1.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_d6fd1.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d6fd1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6fd1.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6fd1.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32959.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_32959.'
+ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\danie\AppData\Local\Temp\ccURfLYf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_32959.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_32959.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_32959.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_32959.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_32959.'
 
 
 Cannot copy output executable
-  'C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5vh0tc/cmTC_d6fd1.exe'
+  'C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i324zn/cmTC_32959.exe'
 to destination specified by COPY_FILE:
   'C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin'
 
 
 Detecting CXX compiler ABI info failed to compile with the following output:
-Change Dir: C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hsucmp
+Change Dir: C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5ll8os
 
-Run Build Command(s):D:/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe cmTC_8f42c && [1/2] Building CXX object CMakeFiles/cmTC_8f42c.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):D:/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe cmTC_89d1c && [1/2] Building CXX object CMakeFiles/cmTC_89d1c.dir/CMakeCXXCompilerABI.cpp.obj
 Using built-in specs.
 COLLECT_GCC=D:\MinGW\bin\c++.exe
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -79,8 +79,8 @@ Configured with: ../configure --prefix=/r/winlibs64ucrt_stage/inst_gcc-12.2.0/sh
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8f42c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f42c.dir/'
- d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix d:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8f42c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\danie\AppData\Local\Temp\cc5Z86jh.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_89d1c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89d1c.dir/'
+ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix d:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/ -D_REENTRANT D:/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_89d1c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\danie\AppData\Local\Temp\ccI7bgdh.s
 GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
 
@@ -109,13 +109,13 @@ GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: a1cd5e737011910b5dcd9adec5fecb2f
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8f42c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f42c.dir/'
- d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_8f42c.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\danie\AppData\Local\Temp\cc5Z86jh.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_89d1c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89d1c.dir/'
+ d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_89d1c.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\danie\AppData\Local\Temp\ccI7bgdh.s
 GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
 COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8f42c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8f42c.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_8f42c.exe
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_89d1c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_89d1c.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_89d1c.exe
 Using built-in specs.
 COLLECT_GCC=D:\MinGW\bin\c++.exe
 COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
@@ -127,13 +127,13 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 12.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
 COMPILER_PATH=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../libexec/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;d:/mingw/bin/../lib/gcc/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f42c.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8f42c.'
- d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\danie\AppData\Local\Temp\ccGQGNMg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_8f42c.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_8f42c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_8f42c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f42c.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8f42c.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89d1c.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89d1c.'
+ d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=d:/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\danie\AppData\Local\Temp\cctrWTSh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_89d1c.exe d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Ld:/mingw/bin/../lib/gcc -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Ld:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. CMakeFiles/cmTC_89d1c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_89d1c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_89d1c.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_89d1c.'
 
 
 Cannot copy output executable
-  'C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hsucmp/cmTC_8f42c.exe'
+  'C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5ll8os/cmTC_89d1c.exe'
 to destination specified by COPY_FILE:
   'C:/Users/danie/Desktop/Sdizo_proj_2/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin'
 

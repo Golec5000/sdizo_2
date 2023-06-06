@@ -21,7 +21,6 @@ Graf::~Graf() {
     delete matrix;
     for(int i = 0; i < number_V; i++)
         delete adj_tab[i];
-    delete [] adj_tab;
 }
 
 int Graf::get_matrix(int u, int v) {
@@ -36,8 +35,8 @@ void Graf::creat_adj_tab() {
 
     for(int i = 0; i < number_V; i++)
         for(int j = number_V - 1; j >= 0; j--)
-            if (matrix->get_tab()[i][j] > 0)
-                adj_tab[i] -> add(j);
+            if (matrix->get_tab()[i][j] != 0)
+                adj_tab[i] -> add(matrix->get_tab()[i][j],j);
 
 
 }

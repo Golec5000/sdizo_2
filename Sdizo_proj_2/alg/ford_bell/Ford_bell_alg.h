@@ -3,16 +3,17 @@
 
 
 #include "../../graf/Graf.h"
-#include "../../struct_help/que_prio/Que.h"
+#include "../../struct_help/que_prio/Heap.h"
 
 class Ford_bell_alg {
 
 public:
 
-    Ford_bell_alg(Graf * g);
+    explicit Ford_bell_alg(Graf * g);
     ~Ford_bell_alg();
 
-    void solution(Graf * g);
+    void solution_matrix();
+    void solution_list();
     void display_solution();
 
 private:
@@ -22,10 +23,12 @@ private:
 
     bool * visited;
 
+    bool non_neg_cycle;
+
+    Graf * g;
+
     int num_v;
     int start_v;
-
-    Que * que;
 
     void path_of_v(int v);
 
